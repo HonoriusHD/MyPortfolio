@@ -28,60 +28,127 @@
 			margin:5px 0px;
 		}
 		.main div{
-			margin:100px;
+			margin-top:80px
 		}
+
+		.main .pages img{
+			width:1080px;
+			height:720px;
+		}
+		.main p{
+			font-size: 40px;
+			margin:15px 0;
+		}
+		.mobile-version{
+			display:flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		.mobile-version h3{
+			font-size:25px;
+			margin:10px;
+		}
+
+		@media screen and (max-width:1300px){
+		.main .pages img,
+		.mobile-version img{
+			width:820px;
+			height:500px;
+		}
+		.mobile-version .singlePage{
+			width:350px;
+			height:600px;
+		}
+	}	
+	@media screen and (max-width:900px){
+		.mobile-version h3{
+			font-size:18px;
+			margin:20px;
+		}
+		.main .pages img,
+		.mobile-version img{
+			width:320px;
+			height:200px;
+		}
+		.mobile-version .singlePage{
+			width:150px;
+			height:250px;
+		}
+		.main p{
+			font-size: 22px;
+			margin:15px 0;
+		}
+	}
 	
 	</style>	
 </head>
 <body>
 	<section class="main">
 		<div class="main-pages pages">
+			<p>Desktop version - MAIN PAGES (7)</p>
 			<img src="Fitness-layout/MainPic.PNG">
 			<img src="Fitness-layout/About1.png">
 			<img src="Fitness-layout/Workouts.PNG">
 			<img src="Fitness-layout/Nutrition.PNG">
 			<img src="Fitness-layout/Clienti.PNG">
-
+			<img src="Fitness-layout/Blog.PNG">
+			<img src="Fitness-layout/Contact.PNG">
 		</div>
 		<div class="about-pages pages">
+			<p>ABOUT SECTION (3+)</p>
 			<img src="Fitness-layout/About2.png">
 			<img src="Fitness-layout/About3.png">
 			<img src="Fitness-layout/About4.png">
 		</div>
 		<div class="workouts-pages pages">
+			<p>FITNESS SECTION (4+)</p>
 			<img src="Fitness-layout/Workouts1.png">
 			<img src="Fitness-layout/Workouts2.png">
 			<img src="Fitness-layout/Workouts3.PNG">
 			<img src="Fitness-layout/Workouts4.PNG">
 		</div>
 		<div class="nutrition-pages pages">
+			<p>NUTRITION SECTION (7+)</p>
 			<img src="Fitness-layout/Nutrition1.PNG">
 			<img src="Fitness-layout/Nutrition2.PNG">
 			<img src="Fitness-layout/Nutrition3.PNG">
 			<img src="Fitness-layout/Nutrition4.PNG">
 			<img src="Fitness-layout/Nutrition5.PNG">
 			<img src="Fitness-layout/Nutrition6.PNG">
-			<img src="Fitness-layout/Nutrition7.PNG">
-			
+			<img src="Fitness-layout/Nutrition7.PNG">			
 		</div>
 		<div class="clients-pages pages">
+			<p>CLIENTS SECTION (5+)</p>
 			<img src="Fitness-layout/Clients1.PNG">
 			<img src="Fitness-layout/Clients2.PNG">
 			<img src="Fitness-layout/Clients3.PNG">
 			<img src="Fitness-layout/Clients4.PNG">
-			<img src="Fitness-layout/Clients5.PNG">
-			
+			<img src="Fitness-layout/Clienti5.PNG">			
 		</div>
 		<div class="blog-pages pages">
-			
+			<p>BLOG SECTION(2+)</p>
+			<img src="Fitness-layout/Blog1.PNG">
+			<img src="Fitness-layout/Blog2.PNG">
 		</div>
-
+		<div class="mobile-version">
+			<p>MOBILE VERSION</p>
+			<h3>Main section </h3>
+			<img src="Fitness-layout/MobileMainPage.PNG" class="singlePage">
+			<h3>About section </h3>
+			<img src="Fitness-layout/MobileAbout.PNG">
+			<h3>Workouts section </h3>
+			<img src="Fitness-layout/MobileAntrenamente.PNG">
+			<h3>Nutrition section </h3>
+			<img src="Fitness-layout/MobileAlimente1.PNG">
+			<img src="Fitness-layout/MobileAlimente2.PNG">
+			<h3>Clients section </h3>
+			<img src="Fitness-layout/MobileClienti.PNG">
+			<h3>Contact section </h3>
+			<img src="Fitness-layout/MobileContact.PNG" class="singlePage">		
+		</div>
 	</section>
-
-
-
 
 <script src="mainContent.js"></script>
 </body>
-
 </html>
