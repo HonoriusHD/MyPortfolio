@@ -1,0 +1,602 @@
+/*--------------- MEDIA QUERY ------------ */
+
+
+@media screen and (max-width: 2100px){
+    .someEventsText{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:1800px){
+    .about-me-left-side > .reading-text,
+    section > .reading-text{
+        position: absolute;
+        font-size:110px;
+        letter-spacing: 10px;
+        width:100%;
+        text-align: center;
+        bottom:calc(10% - 100px);
+        color:rgb(255, 255, 255);
+        bottom:20%;
+    }
+    section .reading-text{
+        color:rgb(0, 0, 0);
+    }
+    .containAboutMePicture{
+        width:450px;
+     }
+     .someEventsText{
+        padding: 25px 40px;
+        font-size: 22px;
+        top:100px;
+    }
+}
+
+@media screen and (max-width:1700px){
+    .someEventsText{
+        font-size: 30px;
+        padding: 20px;
+        writing-mode: vertical-lr;
+        top:40%;
+        left:0;
+    }
+}
+
+@media screen and (max-width:1524px){
+
+        .main-connecting-text{
+            font-size: 21px;
+            width:22vw;
+            height: 40px;
+            top:25vh;
+        }
+
+        .main-art-text{
+            font-size: 250px;
+            left:40%;
+        }
+        .customPaintingsDrop{
+            width:70%;
+            height:50%;
+        }
+        .magnifyingGlass{
+            width:10%;
+            height:10%;
+            right:37%;
+        }
+        .customPaintingsNature{
+            width:80%;
+            height: 80%;
+
+        }
+        .about-me-left-side > .reading-text,
+        section > .reading-text{
+            position: absolute;
+            font-size:90px;
+            letter-spacing: 10px;
+            width:100%;
+            text-align: center;
+            bottom:calc(10% - 100px);
+            color:rgb(255, 255, 255);
+            bottom:20%;
+        }
+        section .reading-text{
+            color:rgb(0, 0, 0);
+        }
+}
+
+@media screen and (max-width:1350px){
+    .inside-custom-paintings{
+        position: absolute;
+        width:100vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    .inside-left{
+        width:100%;
+        position: absolute;
+        z-index: 10;
+        height:80%; 
+    }
+    .inside-custom-paintings > .inside-right{
+        width:80%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10; 
+    }
+    .customPaintingsDrop{
+        width:100%;
+        height:50%;
+        position: absolute;;
+        transform: scale(0);
+        z-index: 3;
+        background-image: url("Images/picur.jpg");
+        background-position: center;
+        background-size: cover;
+        right:0;
+        top:13%;
+        left:9%;
+    }
+    .scalePicture{
+        transform: scale(1);
+        transition: 1.3s ease 5s;
+        right:0;
+    }
+    .inside-right-text{
+        overflow: scroll;
+    }
+    .inside-right-text p{
+        margin-top:20px;
+        margin:10px;
+        font-size: 80%;
+        padding:20px;
+    }
+    .line{
+        display:none;
+    }
+
+    .photosToShow{
+        width:55%;
+        height:22%;
+        bottom: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .photosToShow img{
+        width: 25%;
+        height: 100%;
+        padding-left:10px;
+        padding-top: 0;
+        z-index: 1;
+        transition: 0.4s ease;
+        filter: blur(2px);
+        margin-left:10px;
+    }
+    .containMainMediaPiecture{
+        width:50%;
+        height:73%;
+        position: relative;
+        top:2%;
+    }
+    #contactSection header{
+        color:rgb(0, 0, 0);
+        font-size: 20px;
+        border: 1px solid rgb(0, 0, 0);
+        padding:10px;
+        width:400px;
+        position: absolute;
+        top:40px;
+        left:40px;
+        background-color:rgba(255, 255, 255, 0.356);
+        letter-spacing: 4px;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (max-width:1100px){
+
+        li::after{
+            font-size: 90px;
+            right:5vw;
+            top:20vh;
+        }
+        .main-connecting-text{
+            display: none;
+        }
+        .main-empty-text{
+            left:2vw;
+            font-size: 30px;
+            bottom:40vh;
+            letter-spacing: 1px;
+        }
+        .main-art-text{
+            font-size: 160px;
+            left:20%;
+            width:60%;
+        }
+        .right-main-img{
+            width:100vh;
+            right:0;
+            z-index: 10;
+            position: absolute;
+            z-index: -1;
+        }
+        .left-main-img{
+            display: none;
+        }
+
+        .about-me-left-side > .reading-text,
+        section .reading-text{
+            display: none;
+        }
+
+        .mobile-text-reading{
+            position:absolute;
+            font-size:25px;
+            color:rgb(255, 255, 255);
+            top:12%;
+            left:5%;
+            letter-spacing: 10px;
+        }
+        .abou-me-desktop-text{
+            position: absolute;
+            font-size:20px;
+            top:initial;
+            bottom:20%;
+            padding: 10px;
+            right:3%;
+            left:initial;
+            writing-mode: vertical-lr;
+        }
+
+        .about-me-left-side{
+            width:100%;
+           background-color: black;
+            position: relative;
+            height: 100%;
+            clip-path:initial;
+            overflow: hidden;
+            background-color: rgb(0, 0, 0,0.1);
+            z-index: -1;         
+        }
+        .containAboutMePicture{
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            z-index:-1;
+         }
+
+         .openLeftReadingText > p, .openRightReadingText > p{
+            font-size: 15px;
+            font-weight: lighter;
+        }
+        .openRightReadingText{
+            background-color: black;
+            color: white;
+        }
+        .actualText{
+            margin: 0 10px;
+        }
+        .readSection{
+            right:0;
+            width:90%;
+        }
+        .mobile-text-reading{
+            display: block;
+        }
+        .photosContainer{
+            width:80%;
+        }
+        .containMainMediaPiecture{
+            width:70%;
+        }
+}
+
+@media screen and (max-width:900px){
+
+        .menu{
+            position: fixed;
+            height:100vh;
+            background-color: rgb(194, 186, 186);
+            top:0;
+            opacity:0.9;
+            z-index:2;
+            width: 100vw;
+            transform: translate(100%);
+        }
+        
+        .hamburger-menu{
+            display: block;
+        }
+
+
+        .contactInfo{
+              width:80%;
+              height: 60%;
+              border:none;
+        }
+
+        #contactSection header{
+            border: 1px solid rgb(0, 0, 0);
+            padding:10px;
+            width:350px;
+            left:10px;
+
+        }
+        .contactInfo ul{
+            background-color: transparent;   
+            font-size:23px;
+        }
+
+        .endingSection{
+            right:20px;
+        }
+
+}
+
+@media screen and (max-width:800px){
+
+        .main-art-text{
+            font-size: 60px;
+            left:15%;
+            width: 300px;
+            margin-top: 20%;
+            opacity: 0.8;
+        }
+        .custom-paintings{
+            position: absolute;
+            bottom:10vh;
+            width:4vw;
+            width: 300px;
+            height: 6vh;
+            font-size: 19px;
+            opacity: 9;
+        }
+        .main-empty-text{
+            left:2vw;
+            font-size: 16px;
+            bottom:40vh;
+            letter-spacing: 1px;
+        }
+
+        .right-main-img{
+            width:70vh;
+            right:0;
+            z-index: -1;
+            position: absolute;
+        }
+
+        .mobile-version-text{
+            background-color:black;
+            color:white;
+            font-size:17px;
+            width:auto;
+            margin:auto;
+            top:12%;
+            padding: 10px;
+            padding-top:100px;
+            padding-left: 140px;
+            position:absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            right:10%;
+            opacity: 0.8;
+            display: block;
+        }
+        .photosToShow{
+            width: 100%;
+        }
+}
+
+
+@media screen and (max-width:700px){
+
+        .hamburger-menu{
+            display: block;
+        }
+        ul{
+            height: 60%;
+            width:70%;
+            display:flex;
+            flex-direction: column;   
+            align-items: center;
+            padding: 0;
+            position:fixed;
+            background-color:whitesmoke;
+            z-index:2;
+            opacity: 1;
+            right: 0;
+        }
+        ul li::after{
+            z-index: 5;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            font-size: 10px;
+            right:70%;
+            top:-10%;
+            position: absolute;
+            font-size: 100px;
+        }
+        .right-main-img{
+            width:40vh;
+            right:0;
+            z-index: -1;
+            position: absolute;
+        }
+        .containAboutMePicture{
+            width:70%;
+            height: 80%;
+         }
+         .custom-paintings2{
+          display:none;
+           }
+         .menu2{
+             display: none;
+         }
+
+}
+
+
+@media screen and (max-width:550px){
+    .photosToShow img{
+        width: 21%;
+        height:74%;
+        margin-left: initial;
+    }
+
+    .photosContainer{
+        width:100%;
+    }
+
+    .containMainMediaPiecture{
+        width:80%;
+        height: 60%;
+        top:15%;
+    }
+
+    .someEventsText{
+       writing-mode: horizontal-tb;
+        font-size: 20px;
+        padding:2px;
+        left:0;
+        top:5%;
+        background-color: transparent;
+        letter-spacing: 5px;
+        color: white;
+        border:1px solid white;
+    }
+
+   
+    .contactInfo ul{
+        height:100%;
+        width:100%;
+        font-size: 17px;
+        left:0;
+    }
+
+    #contactSection header{
+        font-size: 18px;
+        padding:10px;
+        width:250px;
+        letter-spacing: 2px;
+        border: 1px solid black;
+        margin:auto;
+        left:initial;
+        width:250px;
+        top:40px;
+        position: relative;
+        font-style: normal;
+    }
+
+    .logoMobile{
+        position: absolute;
+        top:40px;
+        left:5px;
+        font-size: 17px;
+        z-index:1;
+        display: block;
+    }
+    .logo{
+        display:none;
+    }
+
+    .returnHome:hover::before {
+        width:0;
+        transition: 0.6s ease;
+    }
+
+    .returnHome::before {
+          top:60px;
+    }
+
+    .endingSection{
+        width: 61%;
+        height:10%;
+        text-align:center;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:0 auto;
+        font-size: 11px;
+    }
+    .readSection{
+        opacity:20;
+    }
+    
+}
+
+@media screen and (max-width: 460px){
+    .clickToReadHere{
+        width: 37%;
+        height: 28%;
+        background-color: rgba(63, 63, 61, 0.252);
+        position: absolute;
+        top: 13%;
+        left: 9%;
+        z-index: 20;
+        opacity: 0.8;
+        transform: rotate(-2deg);
+    }
+    
+    .about-me-image{
+        width: 38%;
+        height: 26%;
+        transform: rotate(2deg);
+        opacity: 0.8;
+        position: relative;
+        margin:auto;
+        left:24%;
+        top:13%;
+    }
+    .abou-me-desktop-text{
+        position: absolute;
+        font-size:17px;
+        top:initial;
+        bottom:20%;
+        padding: 10px;
+        right:0;
+        left:initial;
+        letter-spacing:5px;
+        writing-mode: vertical-lr;
+        opacity: 0.4;
+    }
+}
+
+@media screen and (max-width:400px){
+
+        .right-main-img{
+            width:42vh;
+            position: absolute;
+        }
+        .mobile-version-text{
+            font-size:15px;
+            padding-top:80px;
+            padding-left: 100px;
+            margin-top:30px;
+        }
+        .main-art-text{
+            width: 80%;
+        }
+        .mobile-text-reading{
+            font-size: 16px;            
+            letter-spacing: 3px;
+        }
+
+        .custom-paintings2{
+            font-size: 118px;
+            border:1px solid black;
+            width: 130px;
+            min-width: initial;
+            right:100px;
+            position: absolute;
+            bottom:10vh;
+            font-size:20px; 
+           }
+
+        .custom-paintings2 ul{
+            right:100px;
+            position: relative;
+            width:180px;
+            padding: 14px;
+        }
+
+        .contactInfo ul{
+            font-size: 17px;
+        }
+
+        .contactInfo ul li{
+            padding:10px;
+            width:90%;
+        }
+
+        .contactInfo{
+            width:90%;
+        }
+}
+
