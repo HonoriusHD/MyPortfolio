@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<title>Photopraphy Website</title>
+	<meta charset="utf-8">
+	<meta name="description" content="This is a photography website">
+	<meta name="viewport" content="initial-scale=1.0 width=device-width">
+	<meta name="robots" content="index,follow">
+	<link rel="stylesheet" href="indexCSS.css">
+	<link rel="stylesheet" href="mediaQueryCSS.css">
+	<link rel="icon" href="cameraIcon.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+	<body>
+		<header id="header">
+			<div class="only-mobile-logo">
+				<p>Martin Laroix</p>
+			</div>
+			<input type="checkbox" class="checkBox">
+			<nav>
+				<ul>
+					<li><a href="#aboutID">About</a></li>
+					<li><a href="#equipmentID">Equipment</a></li>				
+					<li><a href="#header">Martin Laroix</a></li>
+					<li><a href="#weddingID">Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="hamburger-menu">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero" id="heroID">
+				<div class="hero-introduction-text-wrapper">
+					<div class="hero-introduction-text">
+						<h4>Welcome</h4>
+						<h6>Coming from Paris&nbsp;&nbsp;</h6>
+						<h6>Studying art all around the globe&nbsp;&nbsp; </h6>
+						<p>Let me introduce you to my 
+						vision as a photographer</p>
+					</div>
+				</div>
+
+				<div class="hero-introduction-photo">
+				</div>
+			</section>
+
+			<section class="about" id="aboutID">
+				<div class="about-photos">
+					<div class="img-one sliderImg">
+					</div>
+					<div class="img-two sliderImg">
+					</div>
+				</div>
+
+				<div class="about-text-wrap">
+					<div class="about-text">
+						<h3>About</h3>
+						<p>I like to shoot, to see, to inspire, to be inspired,
+						to look for inspiration, to meet peaople, to talk to people, to be kind to people, to smile and spread good energy around. That's it.</p>
+						<p>I do photography for 8 years</p>
+						<p>I wake up, shoot, eat, than start my day.</p>
+						<p>My vision is towards street shoots</p>
+						<p>I go to public/private/wedding events</p>
+						<p>Contact me for ideas</p>
+						<br>
+						<button onclick ="OpenMoreAboutPhotos()">More photos</button>
+						<br><br><br><br>
+					</div>
+				</div>
+
+				<div class="overlay-about-photos-wrapper">
+					<h1> "scroll right"</h1>
+					<div class="overlay-about-photos">
+						<img src="Images/bd1.jpg">
+						<img src="Images/bd2.jpg">
+						<img src="Images/bd3.jpg">
+						<img src="Images/bd4.jpg">
+						<img src="Images/bd6.jpg">
+						<img src="Images/bd7.jpg">
+					</div>
+					<div class="closeBtn-overlay-about-photos" onclick="CloseOverlayPhotosWrapper()">
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="image-slider">
+				<div class="slides">
+					<div class="slide-one allImages">
+					</div>
+					<div class="slide-two allImages">
+					</div>
+					<div class="slide-three allImages">
+					</div>
+					<div class="slide-four allImages">
+					</div>
+				</div>
+
+				<div class="next-btn">
+					<img src="Images/arrow-right.png">
+				</div>
+
+				<div class="prev-btn">
+					<img src="Images/arrow-left.png">
+				</div>
+				<div class="nav-text">
+					<div class="text activeChild">Streets photography</div>	
+					<div class="text">Daily inspiration</div>
+					<div class="text">Early mornings</div>
+					<div class="text">Whole new culture</div>
+				</div>
+			</section>
+
+			<section class="equipment" id="equipmentID">
+
+				<div class="header-equipment">
+					<aside class="header-equipment-text-wrapper">
+						<div class="header-equipment-text">
+							<h1>	Canon 6D </h1>
+							<p  data-text="Canon EOS 6D Mark II">Main camera</p>
+							<p  data-text="Aprox. CMOS de 35,9 x 24,0 mm, Aprox. 26,2 megapixeli
+							Sistem de curăţare integrat EOS, EV -2,5 - 18 (la 23 °C şi ISO 100) 
+							cu focalizare automată pentru un singur cadru">Using for 2 years</p>
+							<p  data-text="Having a great time life, i bought this camera two years ago,
+							and i am at half of it's usage, more functionalities need to be descovered  ">Pro on close shoots</p>
+							<p  data-text="I start using this camere on my events, and for friends
+							who ask for a short shooting, and i found out, that is the perfect
+							tool to use">For events & portraits</p>
+							<p  data-text="I always have with my all my necessarry gear andaccessories,
+							because you never know, when u need them, and some great shooting
+							chanses may appear ">Many accesories</p>
+						</div>
+					</aside>
+					<div class="header-equipment-photos-wrapper">
+						<div class="header-equipment-photos">
+							<img src="Images/LongC1.png" class="parts-of-lens">
+							<img src="Images/LongC2.png" class="parts-of-lens">
+							<img src="Images/LongC3.png" class="parts-of-lens">
+							<img src="Images/LongC4.png" class="parts-of-lens">
+							<img src="Images/LongC5.png" class="parts-of-lens">
+							<img src="Images/LongC6.png" class="parts-of-lens">
+							<p>+</p>
+							<img src="Images/can.png">
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-equipment">
+					<div class="footer-equipment-left">
+						<img src="Images/tripod.png">
+						<div class="footer-equipment-left-text">
+							<h1>TRIPOD </h1>
+							<p>No matter, you go to shoot on the streets,
+								or you do some portraits, a tripod is always a good choise,
+								because, it can really help you, in uneasy situations
+							</p>
+						</div>
+					</div>
+					<div class="footer-equipment-center">
+						<img src="Images/bag.jpg">
+						<div class="footer-equipment-center-text">
+							<h1>CAMERA BAG </h1>
+							<p>I always recommend to care your gear, inside a professional bag,
+								if you can, because it keeps your equipments safe, it helps against
+								the dust, and improve camera's life.
+							</p>
+						</div>
+					</div>
+					<div class="footer-equipment-right">
+						<img src="Images/secondCam.jpg">
+						<div class="footer-equipment-right-text">
+							<h1>CAMERA II </h1>
+							<p>Depending on the scenarion and the context, i always take with me,
+								my second camera, witch has other properties and features, and allows me to to many
+								things.
+							</p>
+						</div>
+					</div>
+				</div>
+
+
+			</section>
+
+			<section class="wedding-photos-wrapper" id="weddingID">
+				<img src="Images/MainWeddingPic2.png" class="mainWeddingPic">
+				<div class="wedding-center-text-wrapper">
+					<div class="wedding-center-text">
+						<h1>Weddings</h1>
+						<p>My ideas & vision</p>
+						<p>Your lifetime beautiful memories</p>
+						<button onclick="OpenOverlayImagesWrapper()">See more</button>
+					</div>
+				</div>
+
+				<aside class="open-overlay-images-wrapper">
+					<div class="closeBtn-open-overlay-images" onclick="CloseOverlayImagesWrapper()">
+						<div></div>
+						<div></div>
+					</div>
+					<div class="open-overlay-images">
+						<img class="wed1-img imgg"src="Images/wed1.jpg">
+						<img class="wed2-img imgg"src="Images/wed2.jpg">
+						<img class="wed3-img imgg"src="Images/wed3.jpg">
+						<img class="wed4-img imgg"src="Images/wed3.jpg">
+						<img class="wed5-img imgg"src="Images/wed3.jpg">
+						<img class="wed6-img imgg"src="Images/wed3.jpg">
+						<img class="wed7-img imgg"src="Images/wed3.jpg">
+						<img class="wed8-img imgg"src="Images/wed3.jpg">
+						<img class="wed9-img imgg"src="Images/wed3.jpg">
+						<img class="wed10-img imgg"src="Images/wed3.jpg">
+						<img class="wed11-img imgg"src="Images/wed3.jpg">
+						<img class="wed12-img imgg"src="Images/wed3.jpg">
+					</div>
+				</aside>
+			</section>
+		</main>
+
+		<footer id="contact">		
+			<div class="contact-header">
+				<p>Get us in contact</p>
+			</div>
+
+			<div class="footer-main">
+				<div class="contain-footer-image">
+					<img class="footer-left-image" src="Images/footerPicture.png">
+				</div>				
+				<div class="contain-contact-form">
+					<div class="contact-form-wrapper">
+						<div class="contact-form">
+							<div class="inputBox w40">
+								<input type="text" required>
+								<span>Nume</span>
+							</div>
+							<div class="inputBox w40">
+								<input type="text" required>
+								<span>Prenume</span>
+							</div>
+							<div class="inputBox w40">
+								<input type="text" required>
+								<span>Mesaj</span>
+							</div>
+							<div class="inputBox w40">
+								<input type="text" required>
+								<span>E-mail</span>
+							</div>
+							<div class="inputBox w90">
+								<textarea required></textarea>
+								<span>Lasa un mesaj</span>
+							</div>
+							<div class="submitBtn">
+								<input type="submit">
+							</div>
+						</div>
+					</div>
+				</div>
+		
+				<div class="social-media-policy">
+					<div class="contact-bottom-line"></div>
+					<div class="footer-left-media-icons">
+						<img src="Images/fb-icon.png">
+						<img src="Images/fb2-icon.png" class="pos-absolute-icons">
+						<img src="Images/insta-icon.png">
+						<img src="Images/insta2-icon.png" class="pos-absolute-icons">
+						<img src="Images/yt-icon.png">
+						<img src="Images/yt2-icon.png" class="pos-absolute-icons">
+						<img src="Images/pinterest-icon.png">
+						<img src="Images/pinterest2-icon.png" class="pos-absolute-icons">
+					</div>
+					<div class="footer-right-media-text">
+						<span>Policy</span>
+						<span>&copy;Martin Laroix</span>
+						<span>Hd &#916;&#8707;sign</span>
+					</div>
+				</div>
+			
+			</div>
+		</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="indexJS.js"></script>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

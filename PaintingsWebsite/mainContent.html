@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "Description" content="Paintings project">
+    <meta name = "robots" content="index, follow">
+    <link rel = "stylesheet" href="mainContentCss.css" type="text/css">
+    <link rel = "stylesheet" href="mediaScreenCss.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Public+Sans:ital,wght@1,100;1,300&family=Spectral:ital,wght@0,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Max Birmangtan </title>                                                                                                                                                   
+</head>
+<body>
+
+<section id = "home">
+
+    <div class = "logo">
+        Max Birmangtan
+    </div>
+
+    <div class = "logoMobile">
+      MB 
+    </div>
+    <div class = "main-connecting-text">
+        'connecting elements'
+    </div>
+
+    <div class = "hamburger-menu openHamburger">
+        "menu"
+    </div>
+
+    <div class = "right-main-img">
+    </div>
+    <img class = "left-main-img" src="Images/upside-pic.jpg">
+
+    <div class = "menu">
+        <ul class = "menu-ul">
+            <li data-text="Home"><a href = "#home" class = "openHamburger">Home</a></li>
+            <li data-text="About"><a href = "#about" class = "openHamburger">About</a></li>
+            <li data-text="Paintings" onclick = growMainCoverHeight()><a href = "#"><em>PAINTINGS</em></a></li>
+            <li data-text="Media"><a href = "#media" class = "openHamburger">Media</a></li>
+            <li data-text="Contact"><a href = "#contactSection" class = "openHamburger">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class = "custom-paintings" onclick = openCustomPaintings()>
+       <span class = "customPaintingsText"><em><a href = "#">Custom paintings</a></em></span> 
+          <div class ="inside-custom-paintings">
+              <section class = "inside-left">
+                <img  class = "magnifyingGlass" src = "Images/lupa.png">
+              </section>
+              <section class = "inside-right">
+                <div class = "customPaintingsDrop">
+                  <div class  = "inside-right-text">
+                    <p style = "text-indent: 20px;">" I want to start by saying thank you, for visiting my website.
+                      I hope you had a great experience so far. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tem
+                      pore similique omnis tempora? Odit distinctio iste nemo ipsa? Minus pos
+                      simus corporisa libero suscipit ali "
+                    </p>
+                    <div class = "line"></div>
+                  </div>
+                </div>
+              </section>
+          </div> 
+    </div>
+
+    <div class = "main-art-text">
+        <p>ART</p>
+    </div>
+
+    <div class = "main-empty-text">
+        "<strike>empty</strike> &nbsp; white &nbsp; space"
+    </div>
+
+    <div class = "mobile-version-text">" transparent "</div>
+
+    <div class = "whiteTopCoverWhenChangeMenu"></div>
+    <div class = "whiteBottomCoverWhenChangeMenu"></div>
+
+</section>
+
+<section class = "about-me" id = "about">
+
+    <p class = "reading-text">"reading section"</p> 
+    <div class = "about-me-left-side">
+      <p class = "reading-text"> "reading section" </p>
+    </div>
+
+    <div class = "containAboutMePicture">
+        <div class = "clickToReadHere" onclick = openTwoSectionsToRead()> 
+          <img src = "Images/hereTableaux1.png">
+        </div>
+        <div class = "about-me-image">
+            <img src = "Images/hereTableaux2.png">
+        </div>
+    </div>
+
+    <img class = "about-me-blur-image" src = "Images/chairPic1.jpg">
+
+    <div class = "mobile-text-reading">"reading section"</div>
+    <div class = "abou-me-desktop-text">"about me"</div>
+ 
+      
+  <section class = "readSection">
+      <div class = "openLeftReadingText">
+          <p class = "actualText" style = "padding-top:40px">"Dear you"</p>
+          <p class = "actualText" style = "text-indent: 20px;">I want to start by saying thank you, for visiting my website.
+            I hope you had a great experience so far. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tem
+            pore similique omnis tempora? Odit distinctio iste nemo ipsa? Minus pos
+            simus corporis beatae aspernatur excepturi, assumenda deleniti. Ipsa libero suscipit aliquid a.
+          </p>
+          <p class = "actualText" style = "text-indent: 20px;">I want to start by saying thank you, for visiting my website.
+            I hope you had a great experience so far. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tem
+            pore similique omnis tempora? Odit distinctio iste nemo ipsa? Minus pos
+            simus corporis beatae aspernatur excepturi, assumenda deleniti. Ipsa libero suscipit aliquid a.
+          </p>
+      </div>
+      <div class = "openRightReadingText">
+          <p class = "actualText" style = "text-indent: 40px;">I want to start by sa suscipit aliquid a.
+            ying thank you, for visiting my website.
+            I hope you had a great experience so far. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tem
+            pore similique omnis tempora? Odit distinctio iste nemo ipsa? Minus pos
+            simus corporis beatae aspernatur excepturi, assumenda deleniti. Ipsa libero suscipit aliquid a.
+            simus corporis beatae aspernatur excepturi, assumenda deleniti. Ipsa libero suscipit aliquid a.
+            simus corporis beatae aspernatur excepturi, assumenda deleniti. Ipsa libero
+          </p>
+          <p class = "lastWordsOfTextDescription">Sincerely,</br>
+            Max Birmangtan
+          </p>
+          <span class = "closeAboutDescriptionSections">"close"</span>
+      </div>
+    </section>
+</section>
+
+
+
+<section id = "media">
+
+      <div id = "mainMediaBgPic">
+
+          <div class = "black-opacity-cover"></div>
+          <div class = "someEventsText">"some events"</div>
+        
+          <div class = "photosContainer">
+            <div class = "photosToShow"  onclick = "changeMainMediaPicture(event)">
+                <img src = "Images/expo1.jpg">
+                <img src = "Images/expo3.jpg">
+                <img src = "Images/expo2.jpg">
+                <img src = "Images/expo4.jpg"> 
+            </div>
+
+            <div class = "containMainMediaPiecture">
+                <img class = "mainMediaPicture" src = "Images/expo1.jpg">
+            </div>
+          </div>
+
+      </div>
+      
+</section>
+
+<footer>
+   
+  <div id = "contactSection">
+
+          <header>
+                "Get us in contact"
+          </header>
+
+          <div class = "contactInfo">
+              <ul>
+                <li><a href = "#">Check me on Facebook</a></li>
+                <li><a href = "#">Message me on Instagram</a></li>
+                <li><a href = "#">Write me an e-mail</a></li>
+              </ul>
+          </div>
+  </div>
+
+  <div class = "endingSection">
+    &#169;Max Birmangtan 2020 / legal terms / hd design
+  </div>
+</footer>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src = "javascriptFile.js"></script>
+<script>
+    $(document).ready(function(){
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        } 
+      });
+    });
+    </script>
+</body>
+</html>
